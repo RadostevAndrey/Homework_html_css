@@ -1,0 +1,94 @@
+
+body{
+  background: #343d468a;
+}
+.box{
+  margin: 5px auto;
+  width: 300px;
+  height: 100px;
+}.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #0b0e11;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+   }
+   
+   .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e; 
+   }
+   
+   .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e; 
+   }
+   
+   .container-1 input#search:-ms-input-placeholder { 
+    color: #65737e; 
+   }
+   .container-1 input#search::-webkit-input-placeholder {
+      color: #65737e;
+   }
+    
+   .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+      color: #65737e;  
+   }
+    
+   .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+      color: #65737e;  
+   }
+   .container-1 input#search:-ms-input-placeholder {  
+      color: #65737e;  
+   }
+
+   .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+     }
+   .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+       outline:none;
+       background: #ffffff;
+     }
+     .menu {
+        margin-right: 100px;
+        padding: 0;
+        list-style-type: none;
+        border: 2px solid #2f43618e;
+        border-radius: 20px 15px;
+        width: 550px;
+        text-align: center;
+        background-color: #13181b9d;
+     }
+     .menu a {
+     color: #fff;
+     padding: 5px 10px;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     width: 100px;
+     }
+     .menu li {display: inline; 
+    }
+    .thumb img {
+        border: 1px solid #30202e9d; 
+    padding: 15px; 
+    background: rgba(37, 35, 35, 0.5); 
+    margin-right: 78px;
+    margin-bottom: 10px; 
+    }
+
+ 
