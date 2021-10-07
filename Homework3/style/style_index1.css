@@ -4,18 +4,18 @@ body {
 #menu {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: yellow;
+    background-color: rgba(47, 107, 175, 0.5);
 }
 #menu a {
     display: inline-block;
-    color: tomato;
+    color:rgb(255, 255, 255);
     text-decoration:none;
     padding: 15px;
     border-bottom: 3px solid transparent;
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0);
 }
 #menu a:hover {
-    border-bottom: solid tomato;
+    border-bottom: solid white;
 }
 .container {
     margin: 0 auto;
@@ -23,8 +23,7 @@ body {
 }
 #link a {
     display: block;
-    background-color: indigo;
-    border: 1px solid indigo;
+    background-color: rgba(76, 0, 130, 0.7);
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -72,4 +71,7 @@ body::before {
     background-position: center;
     position: fixed;
     filter: blur(5px); 
+}
+ h1 {
+    text-align: center;
 }
