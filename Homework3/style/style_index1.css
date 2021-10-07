@@ -36,10 +36,12 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border: 10px solid white;
+    border-radius: 4px;
 }
 .pages > a {
     display: inline-block;
-    border: 1px solid indigo;
+    border: 2px solid white;
     padding: 20px;
     margin-bottom: 35px;
     border-radius: 5px;
@@ -47,7 +49,7 @@ img {
     text-align: center;
 }
 .pages > a.active {
-    background-color: khaki;
+    background-color: rgb(138, 68, 126);
 }
 .block_pages {
     display: block;
@@ -56,4 +58,18 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto
+}
+body::before {
+    content: '';
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    z-index: -1; 
+    background-image: url(../graph/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    filter: blur(5px); 
 }
